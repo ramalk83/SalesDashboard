@@ -1,0 +1,92 @@
+h1 {
+  color:rgb(204, 208, 233);
+  font-weight: bold;
+  margin-left:20px
+}
+.buttons-right>button {
+  float: right;
+  margin-top:25px;
+}
+.app-container, .bootstrap-wrapper {
+  padding:5px;
+  width:90%;
+  margin:10px;
+}
+
+.charts{
+  box-shadow: 2px 2PX 2px 2px  #d4d1d1;
+  border: 1px solid lightgray;
+  margin-bottom:10px;
+  background-color: rgb(219, 218, 215);
+}
+.percentage-number {
+  color: rgb(235, 20, 170);
+  font-size: 40px;
+  font-weight: bold;
+}
+.percentage-sign {
+  color: rgb(180, 11, 90);
+  font-size: 40px;
+}
+.percentage-container {
+  text-align: center;
+}
+.percentage-container:first-child {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.teammate:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.teammate h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+  padding-top: 17px;
+  margin: 0;
+}
+.teammate p {
+  margin: 0;
+  font-size: .7em;
+}
+.teammate img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.mate-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.panelbar-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .panels {
+    grid-template-columns: 225px auto;
+    grid-template-rows: auto auto auto;
+  }
+  .panel-positions {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .panels {
+    grid-template-columns: auto;
+  }
+  .panel-positions {
+    grid-column: span 1;
+  }
+}
